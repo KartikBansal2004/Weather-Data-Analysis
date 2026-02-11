@@ -1,90 +1,83 @@
-# 📊 Zepto Sales & Performance Analysis (Power BI)
+# 🌦️ Weather Data Analysis using Python
 
 ## 📌 Project Overview
 
-This project presents an end-to-end **sales and performance analysis of Zepto**, a 10-minute grocery delivery platform, using **Power BI**. The objective is to extract meaningful business insights from raw sales data and represent them through an interactive and decision-focused dashboard.
+This project focuses on **exploratory data analysis (EDA) of a weather dataset** using **Python** to uncover patterns, trends, and relationships between different meteorological parameters. The analysis demonstrates how raw environmental data can be transformed into meaningful insights using data analytics techniques.
 
-The analysis focuses on understanding **sales trends, item category performance, outlet location impact, ratings, and customer preferences**, enabling data-driven business decisions.
+The project is implemented entirely in a **Jupyter Notebook**, making it easy to understand, reproduce, and extend.
 
 ---
 
 ## 🧩 Problem Statement
 
-Zepto operates across multiple outlet locations with a wide range of product categories. Analyzing large-scale transactional data manually is inefficient and error-prone. This project aims to:
+Weather data contains multiple variables such as temperature, humidity, wind speed, visibility, and atmospheric conditions. Analyzing this data manually is inefficient. This project aims to:
 
-* Identify high-performing item categories and outlet locations
-* Track key performance indicators (KPIs) such as average sales, ratings, and item demand
-* Support strategic decisions related to inventory planning and outlet optimization
+* Understand weather trends and conditions through statistical analysis
+* Identify relationships between key weather parameters
+* Practice real-world data analysis using Python libraries
 
 ---
 
 ## 📂 Dataset Information
 
-* **Source**: Excel dataset (included in the repository)
-* **Data Type**: Structured retail sales data
-* **Key Features**:
+* **Dataset Name**: Weather Dataset
+* **Format**: CSV file
+* **Data Type**: Structured time-series weather data
+* **Key Attributes**:
 
-  * Item Type & Item Identifier
-  * Outlet Location Type
-  * Sales Amount
-  * Item Ratings
-  * Item Attributes (e.g., fat content, weight)
+  * Temperature
+  * Humidity
+  * Wind Speed
+  * Visibility
+  * Weather Conditions
+  * Atmospheric Pressure
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-* **Power BI** – Data visualization and dashboard creation
-* **Power Query** – Data cleaning and transformation
-* **DAX (Data Analysis Expressions)** – KPI calculations and measures
-* **Microsoft Excel** – Source data handling
+* **Python**
+* **Jupyter Notebook**
+* **Pandas** – Data manipulation and analysis
+* **NumPy** – Numerical computations
+* **Matplotlib & Seaborn** – Data visualization
 
 ---
 
-## 🔄 Data Processing Workflow
+## 🔄 Data Analysis Workflow
 
-1. Imported raw Excel data into Power BI
-2. Cleaned and standardized inconsistent values (missing data, text normalization)
-3. Transformed data using Power Query Editor
-4. Created calculated columns and measures using DAX
-5. Designed an interactive dashboard with filters and slicers
+1. Imported the CSV dataset using Pandas
+2. Inspected data structure, data types, and missing values
+3. Cleaned and prepared the dataset for analysis
+4. Performed statistical analysis and filtering operations
+5. Visualized trends and relationships using charts and plots
 
 ---
 
-## 📈 Dashboard Highlights
+## 📊 Analysis Highlights
 
-* **KPI Cards**: Average Sales, Average Rating, Total Items, Average Weight
-* **Sales Analysis**:
-
-  * Sales by Item Type
-  * Sales by Outlet Location (Tier-wise)
-* **Customer Insights**:
-
-  * Average Rating by Location
-  * Item Fat Content Distribution
-* **Interactivity**:
-
-  * Dynamic filters for Item Type, Outlet Location, and Item Identifier
+* Distribution analysis of temperature, humidity, and wind speed
+* Weather condition frequency analysis
+* Filtering and querying data based on specific conditions
+* Identification of extreme and common weather patterns
 
 ---
 
 ## 💡 Key Insights
 
-* Tier 3 outlet locations generate the highest overall sales
-* Certain item categories (e.g., fruits, snacks) dominate revenue contribution
-* Average customer ratings remain consistent across outlet tiers
-* Product attributes influence demand patterns significantly
+* Certain weather conditions occur more frequently than others
+* Temperature and humidity show observable variation patterns
+* Wind speed and visibility help distinguish different weather conditions
 
 ---
 
-## 🚀 Business Impact
+## 🚀 Learning Outcomes
 
-This dashboard enables stakeholders to:
+This project helped strengthen:
 
-* Optimize inventory based on item demand
-* Identify high-revenue outlet locations
-* Improve customer satisfaction using rating analysis
-* Make faster, data-backed operational decisions
+* Python-based data analysis skills
+* Data cleaning and exploratory analysis techniques
+* Visualization and insight generation from real-world datasets
 
 ---
 
@@ -92,43 +85,36 @@ This dashboard enables stakeholders to:
 
 ```
 ├── Dataset/
-│   └── zepto_sales_data.xlsx
-├── Dashboard/
-│   └── Zepto_PowerBI_Report.pbix
-├── Images/
-│   └── dashboard_preview.png
+│   └── Weather Dataset.csv
+├── Notebook/
+│   └── Weather_Data_Analysis.ipynb
 └── README.md
 ```
 
 ---
 
-## 📷 Dashboard Preview
+## ▶️ How to Run the Project
 
-*(Add a screenshot of the Power BI dashboard here for better visualization)*
-
----
-
-## 👤 Author
-
-**Piyush Bansal**
-Aspiring Data Analyst | Power BI | SQL | Python
-
----
-
-## ⭐ How to Use
-
-1. Download or clone the repository
-2. Open the `.pbix` file using Power BI Desktop
-3. Explore the dashboard using interactive filters
+1. Clone the repository
+2. Install required libraries using `pip install pandas numpy matplotlib seaborn`
+3. Open the Jupyter Notebook
+4. Run the cells sequentially to view the analysis
 
 ---
 
 ## 📌 Future Enhancements
 
-* Integration with real-time data sources
-* Advanced DAX-based trend forecasting
-* Customer segmentation analysis
+* Advanced time-series analysis
+* Weather trend forecasting
+* Integration with real-time weather APIs
 
 ---
 
-If you found this project useful, feel free to ⭐ the repository!
+## 👤 Author
+
+**Kartik Bansal**
+Aspiring Data Analyst | Python | Data Analysis | Visualization
+
+---
+
+If you find this project useful, feel free to ⭐ the repository!
