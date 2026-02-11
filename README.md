@@ -113,6 +113,7 @@ This project helped strengthen:
 ## 👤 Author
 
 **Kartik Bansal**
+
 Aspiring Data Analyst | Python | Data Analysis | Visualization
 
 ---
